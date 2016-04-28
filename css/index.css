@@ -30,6 +30,7 @@
     border-bottom: .1px solid;
     outline: none;
     margin-bottom:10px;
+    font-size: 45px;
   }
 
   .sideBarSubList {
@@ -43,9 +44,35 @@
     font-size: 35px;
   }
 
+  .contactInfo {
+    font-size: 45px;
+    letter-spacing: 6px;
+  }
 
 
   .sideBarBoldTitle {
     letter-spacing: 3px;
     font-size:45px;
+  }
+
+  .sideBarList li{
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+
+
+  .homeButton, .myaccountButton {
+    position:absolute;
+    bottom: 0;
+    font-size:40px;
+    letter-spacing: 6px;
+    margin: 10px 35px;
+  }
+
+  .homeButton {
+    left: 0;
+  }
+
+  .myaccountButton {
+    right: 0;
   }
